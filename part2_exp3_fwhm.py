@@ -15,9 +15,9 @@ range50 = (data50[0]>=9765) * (data50[0]<=10285)
 
 p50, chi_score, err50 = fitting(p050, data50[0][range50], data50[1][range50], gauss)
 
-#plt.plot(data50[0], data50[1])
-#plt.plot(data50[0][range50], gauss(p50, data50[0][range50]))
-#plt.show()
+plt.plot(data50[0], data50[1])
+plt.plot(data50[0][range50], gauss(p50, data50[0][range50]))
+plt.show()
 
 # 100 ks/s
 p0100 = [60, 10000, 20, -65]
@@ -26,9 +26,9 @@ range100 = (data100[0]>=9510) * (data100[0]<=10460)
 
 p100, chi_score, err100 = fitting(p050, data100[0][range100], data100[1][range100], gauss)
 
-#plt.plot(data100[0], data100[1])
-#plt.plot(data100[0][range100], gauss(p100, data100[0][range100]))
-#plt.show()
+plt.plot(data100[0], data100[1])
+plt.plot(data100[0][range100], gauss(p100, data100[0][range100]))
+plt.show()
 
 # 250 ks/s
 p0250 = [60, 25000, 20, -65]
@@ -37,9 +37,9 @@ range250 = (data250[0]>=9000) * (data250[0]<=10730)
 
 p250, chi_score, err250 = fitting(p050, data250[0][range250], data250[1][range250], gauss)
 
-#plt.plot(data250[0], data250[1])
-#plt.plot(data250[0][range250], gauss(p250, data250[0][range250]))
-#plt.show()
+plt.plot(data250[0], data250[1])
+plt.plot(data250[0][range250], gauss(p250, data250[0][range250]))
+plt.show()
 
 
 # 500 ks/s
@@ -49,9 +49,9 @@ range500 = (data500[0]>=7300) * (data500[0]<=12600)
 
 p500, chi_score, err500 = fitting(p050, data500[0][range500], data500[1][range500], gauss)
 
-#plt.plot(data500[0], data500[1])
-#plt.plot(data500[0][range500], gauss(p500, data500[0][range500]))
-#plt.show()
+plt.plot(data500[0], data500[1])
+plt.plot(data500[0][range500], gauss(p500, data500[0][range500]))
+plt.show()
 
 
 # Calculate and graph

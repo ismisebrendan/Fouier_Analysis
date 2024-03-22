@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import ascii
-from funcs import derivative
 
 data = ascii.read("data_part1_exp4.txt")
 
